@@ -30,7 +30,7 @@ class GameWindow extends JFrame {
                 int x = e.getX(); // координаты курсора
                 int y = e.getY();
                 float targRight = targetLeft + target.getWidth(null); //ширина объекта
-                float targBottom = targetTop + target.getHeight(null); //высота объекта
+                float targBottom = targetTop + target.getHeight(null); //высота объекта !!!
 
                 boolean coinx = x >= targetLeft && x <= targRight && y >= targetTop && y <= targBottom;
 
